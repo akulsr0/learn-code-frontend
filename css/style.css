@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+html,body{overflow-x: hidden;}
+hr{width: 60%;}
+a:hover{text-decoration: none; color: #333;}
+.headerSides {background-color: #1dd1a1;}
+.headerDiv {background-color: #10ac84;}
+.footerSides {
+    min-height: 300px;
+    background-color: #1dd1a1;
+}
+
+.footerDiv {
+    min-height: 300px;
+    background-color: #10ac84;
+}
+.centerAll {display: flex;align-items: center;justify-content: center;}
+.headerTitle {font-family: 'Source Sans Pro';color: #fff;padding: 10px;}
+.headerLink {text-decoration: none;color: #fff;margin: 6px;font-size: 18px;font-family: 'Montserrat';}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-div {
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.coursesButton {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: #10ac84 2px solid;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+    padding: 4px 16px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.coursesButton:hover {
+    background-color: #10ac84;
+    border: #fff 2px solid;
+    box-shadow: 0px 0px 18px 0px #f3f3f3;
+    color: #fff;
+}
+
+.headingTitle {
+    font-family: 'Source Sans Pro';
+    margin-top: 30px;
+    color: #009432;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.sourcesans {
+    font-family: 'Source Sans Pro';
+}
+
+.opensans {
+    font-family: 'Open Sans';
+}
+
+.instructorImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.instructorName {
+    font-family: 'Montserrat';
+    margin-top: 14px;
+}
+
+.skillList {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.skillElement {
+    font-family: 'Open Sans';
+}
+
+.refButton {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: #2ed573 3px solid;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+    padding: 4px 16px;
+    color: #2ed573;
+    border-radius: 4px;
+}
+
+.refButton:hover {
+    background-color: #2ed573;
+    border: #24a75a 3px solid;
+    box-shadow: 0px 0px 10px 0px #24a75a;
+    color: #fff;
+}
+
+.cardHover:hover {
+    box-shadow: 0px 0px 20px 2px #24a75a;
+}
+
+.courseBuyButton {
+    margin: 8px;
+    margin-bottom: 4px;
+    background-color: #1dd1a1;
+    border: #24a75a 2px solid;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 4px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.courseBuyButton:hover {
+    border: #24a75a 2px solid;
+    box-shadow: 0px 0px 14px 0px #24a75a;
+}
+
+.emailInput {
+    width: 60%;
+    margin: 10px;
+    padding: 6px;
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    border: #24a75a 2px solid;
+    border-radius: 4px;
+}
+
+.emailInput:focus {
+    border: #24a75a 2px solid;
+    box-shadow: 0px 0px 8px 0px #24a75a;
+}
+
+.subscribeButton {
+    margin: 8px;
+    margin-bottom: 4px;
+    background-color: #1dd1a1;
+    border: #24a75a 2px solid;
+    font-family: 'Montserrat';
+    color: #fff;
+    padding: 4px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.subscribeButton:hover {
+    border: #24a75a 2px solid;
+    box-shadow: 0px 0px 14px 0px #24a75a;
+}
+
+.feedbackDiv {
+    width: 80%;
+}
+
+.studentImage {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+}
+
+.gmapicon {
+    width: 80px;
+    height: 80px;
+}
+
+.mapDiv {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f3f6;
+    border-radius: 10px;
+}
+
+.otherLink {
+    color: #333;
+    font-size: 20px;
+}
+
+.otherLink:hover {
+    color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+    hr {
+        width: 80%;
+    }
+    .banner {height: 400px;}
+    .instructorImage{width: 100px; height: 100px;}
+    .cardmargin{margin: 4px 8px;}
+    .centerHorizontal {
+        display: flex;
+        justify-content: center;
+    }
+    .feedbackDiv {
+        width: 90%;
+    }
+}
