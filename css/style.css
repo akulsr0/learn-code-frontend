@@ -209,6 +209,7 @@ a:hover{text-decoration: none; color: #333;}
         width: 80%;
     }
     .banner {height: 400px;}
+    .emailInput{width: 90%;}
     .instructorImage{width: 100px; height: 100px;}
     .cardmargin{margin: 4px 8px;}
     .centerHorizontal {
